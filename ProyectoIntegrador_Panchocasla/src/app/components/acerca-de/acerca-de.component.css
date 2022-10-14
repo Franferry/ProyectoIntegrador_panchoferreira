@@ -1,0 +1,38 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#nombre{
+    color: white;
+    font-weight: bold;
+    margin-top: 30%;
+}
+#profesion{
+    color: rgb(192, 192, 192);
+}
+
+@media (min-width: 576px){
+#fotoperfil{
+    position: absolute;
+    width: 15%;
+    box-shadow: 0.1em 0.1em 1em 0.3em white;
+    border-radius: 4em;
+    left: 3%;
+    top: 370px;
+}
+}
+@media (max-width: 575px){
+    #fotoperfil{
+        position: absolute;
+        width: 45%;
+        box-shadow: 0.1em 0.1em 1em 0.3em white;
+        border-radius: 4em;
+        left: 30%;
+        top: 330px;
+    }
+}
